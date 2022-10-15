@@ -181,6 +181,16 @@ footer {
     padding-bottom: 200px;
     background-color: #2F303A;
 }
+.img-hero {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Imghero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .hero-title {
 
     margin-left: auto;
@@ -222,6 +232,7 @@ footer {
 .hero-button:focus {
     background-color: #188CE8;
 }
+
 
 /*преимущества*/
 
