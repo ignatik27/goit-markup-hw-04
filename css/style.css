@@ -256,7 +256,13 @@ footer {
 .benefits-item:last-child {
     margin-right: 0;
 }
-
+.benefits-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
 .benefits-title {
     margin-bottom: 10px;
 
