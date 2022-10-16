@@ -144,40 +144,34 @@ footer {
 .mail .list + .list {
     margin-left: 50px;
 }
+.mail-list {
+    color: #757575;
+}
+.mail-list:hover,
+.mail-list:focus {
+    color: var(--primary-bg-color);
+}
+.header-link {
 
-.header-mail {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 0;
     
-    display: block;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
-    color: var(--accent-text-color)
+    color: var(--accent-text-color);
 }
-.header-mail:hover,
-.header-mail:focus {
-    color: var(--primary-bg-color)
+.header-link:hover,
+.header-link:focus {
+    color: var(--primary-bg-color);
 }
-.header-tel {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 0;
-
-    display: block;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    color: var(--accent-text-color)
-}
-.header-tel:hover,
-.header-tel:focus {
-    color: var(--primary-bg-color)
+.header-icon {
+    display: inline-block;
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 /*hero*/
@@ -411,7 +405,16 @@ footer {
 .team-soc-item:last-child {
     margin-right: 0;
 }
-
+.team-soc-item {
+    cursor: pointer;
+}
+.team-soc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
 .team-soc-icon {
     fill: #AFB1B8;
 }
@@ -537,6 +540,61 @@ background-color: #2196F3;
 .footer-tel:focus {
     color: var(--primary-bg-color)
 }
+.footer-box {
+    display: flex;
+}
+.footer-soc-list {
+    display: flex;
+}
+.footer-soc-list {
+    cursor: pointer;
+}
+.footer-soc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.footer-title {
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-soc-box {
+    margin-left: 70px;
+    padding-top: 12px;
+}   
+.footer-soc-item {
+    margin-right: 10px;
+    
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-soc-item:last-child {
+    margin-right: 0;
+}
+.footer-soc-icon {
+    fill: #FFFFFF;
+}
+.footer-soc-item:hover {
+    background-color: #2196F3;
+}
+
+
 
 /*portfolio-hero*/
 .visually-hidden {
