@@ -54,6 +54,9 @@ footer {
 .team-soc-list {
     list-style: none;
 }
+.clients-list {
+    list-style: none;
+}
 
 
 
@@ -366,6 +369,7 @@ footer {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color)
 }
 .team-name {
@@ -395,9 +399,66 @@ footer {
 }
 .team-soc-item {
     margin-right: 10px;
+
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 .team-soc-item:last-child {
     margin-right: 0;
+}
+.team-soc-icon {
+    fill: #AFB1B8;
+}
+.team-soc-item:hover {
+background-color: #2196F3;
+}
+.team-soc-item:hover .team-soc-icon {
+    background-color: #FFFFFF;
+}
+
+.clients {
+    margin-bottom: 50px;
+
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color)
+}
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 30px;
+
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.clients-item:last-child {
+    margin-right: 0;
+}
+.clients-item {
+    cursor: pointer;
+}
+
+.clients-icon {
+    fill: #AFB1B8;
 }
 
 /*подвал*/
