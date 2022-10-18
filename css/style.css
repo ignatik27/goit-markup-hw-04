@@ -111,8 +111,6 @@ footer {
     color: var(--primary-bg-color)
 }
 .sitenav {
-
-
     display: flex;
     
     margin-left: 93px;
@@ -144,10 +142,6 @@ footer {
 .mail .list + .list {
     margin-left: 50px;
 }
-.mail-list {
-    color: #757575;
-}
-.mail-list:hover,
 .mail-list:focus {
     color: var(--primary-bg-color);
 }
@@ -258,16 +252,13 @@ footer {
 }
 .benefits-icon {
     width: 270px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
-}
-.net-icon {
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 .benefits-title {
     margin-bottom: 10px;
@@ -641,7 +632,6 @@ background-color: #2196F3;
     line-height: 1.6;
     border-radius: 4px;
     border: none;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     letter-spacing: 0.03em;
     color: #212121;
     cursor: pointer;
