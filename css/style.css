@@ -142,11 +142,14 @@ footer {
 .mail .list + .list {
     margin-left: 50px;
 }
+
 .mail-list:focus {
     color: var(--primary-bg-color);
 }
 .header-link {
-
+    display: flex;
+    align-items: center;
+    
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 0;
