@@ -162,6 +162,7 @@ footer {
 .header-link:focus {
     color: var(--primary-bg-color);
 }
+
 .header-icon {
     display: inline-block;
     margin-right: 10px;
