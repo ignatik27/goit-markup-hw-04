@@ -57,6 +57,9 @@ footer {
 .clients-list {
     list-style: none;
 }
+.portfolio-soc-img {
+    text-decoration: none;
+}
 
 
 
@@ -410,14 +413,14 @@ footer {
     width: 100%;
     height: 100%;
 }
-.team-soc-icon {
+.team-soc-link {
     fill: #AFB1B8;
 }
 .team-soc-item:hover {
 background-color: #2196F3;
 }
 
-.team-soc-item:hover .team-soc-icon {
+.team-soc-link:hover .team-soc-icon {
     fill: #ffffff;
 }
 
@@ -440,11 +443,20 @@ background-color: #2196F3;
     justify-content: center;
 }
 .clients-item {
+    margin-right: 30px;
+    
+    cursor: pointer;
+}
+.clients-item:last-child {
+    margin-right: 0;
+}
+.clients-icon {
+    fill: currentColor;
+}
+.clients-soc-list {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    margin-right: 30px;
 
     width: 170px;
     height: 92px;
@@ -452,19 +464,11 @@ background-color: #2196F3;
     border-radius: 4px;
     color: #AFB1B8;
 }
-.clients-item:last-child {
-    margin-right: 0;
-}
-.clients-item {
-    cursor: pointer;
-}
-.clients-item:hover {
+.clients-soc-list:hover {
     color: #2196F3;
     border-color: #2196F3;
 }
-.clients-icon {
-    fill: currentColor;
-}
+
 
 
 /*подвал*/
@@ -566,7 +570,7 @@ background-color: #2196F3;
     margin-left: 70px;
     padding-top: 12px;
 }   
-.footer-soc-item {
+.footer-soc-link {
     margin-right: 10px;
     
     width: 44px;
@@ -578,14 +582,14 @@ background-color: #2196F3;
 
     background: rgba(255, 255, 255, 0.1);
 }
+.footer-soc-link:hover {
+    background-color: #2196F3;
+}
 .footer-soc-item:last-child {
     margin-right: 0;
 }
 .footer-soc-icon {
     fill: #FFFFFF;
-}
-.footer-soc-item:hover {
-    background-color: #2196F3;
 }
 
 
@@ -664,7 +668,7 @@ background-color: #2196F3;
     margin-right: 30px;
     margin-bottom: 30px;
 }
-.portfolio-img:hover,   
+.portfolio-img:hover,
 .portfolio-img:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
