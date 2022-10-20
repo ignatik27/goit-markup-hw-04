@@ -398,7 +398,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
 }
 .team-soc-item:last-child {
     margin-right: 0;
@@ -410,13 +409,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
     width: 100%;
     height: 100%;
 }
 .team-soc-link {
     fill: #AFB1B8;
 }
-.team-soc-item:hover {
+.team-soc-link:hover {
     background-color: #2196F3;
 }
 
