@@ -417,7 +417,7 @@ footer {
     fill: #AFB1B8;
 }
 .team-soc-item:hover {
-background-color: #2196F3;
+    background-color: #2196F3;
 }
 
 .team-soc-link:hover .team-soc-icon {
@@ -668,8 +668,11 @@ background-color: #2196F3;
     margin-right: 30px;
     margin-bottom: 30px;
 }
-.portfolio-img:hover,
-.portfolio-img:focus {
+.portfolio-soc-img {
+    display: block;
+}
+.portfolio-soc-img:hover,
+.portfolio-soc-img:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-text {
